@@ -1,4 +1,4 @@
-package testing;
+package com.tentsntrails.testing.sprint5;
 
 //always import these two:
 //contains the WebDriver class needed to instantiate a new browser loaded with a specific driver

@@ -1,4 +1,4 @@
-package testing;
+package com.tentsntrails.testing.sprint5;
 
 import static org.junit.Assert.*;
 
