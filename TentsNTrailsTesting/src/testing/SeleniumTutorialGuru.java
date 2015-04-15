@@ -14,7 +14,7 @@ public class SeleniumTutorialGuru {
 	public SeleniumTutorialGuru() { //this is the main method if you only have one test in your project.
         // declaration and instantiation of objects/variables
         WebDriver driver = new FirefoxDriver(); //default Firefox profile will be launched
-        String baseUrl = "http://tentsntrailsdebug.azurewebsites.net/";
+        String baseUrl = "http://tentsntrails-test.azurewebsites.net/";
         String expectedTitle = "Home - tents n trails";
         String actualTitle = "";
  
