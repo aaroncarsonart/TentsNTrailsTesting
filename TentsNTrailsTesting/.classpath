@@ -5,6 +5,6 @@
 	<classpathentry kind="lib" path="Resources/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="Resources/selenium-java-2.45.0.jar"/>
 	<classpathentry kind="lib" path="Resources/selenium-server-standalone-2.45.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java SE 8 [1.8.0_25]"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

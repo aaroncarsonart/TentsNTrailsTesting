@@ -29,9 +29,9 @@ public class SeleniumTutorialGuru {
          * the result as "Passed" or "Failed"
          */
         if (actualTitle.contentEquals(expectedTitle)){
-            System.out.println("SeleniumTutorialGuru Test Passed!");
+            System.out.println("[PASSED] #--: Site Loaded");
         } else {
-            System.out.println("SeleniumTutorialGuru Test Failed");
+            System.out.println("[FAILED] #--: Site Loaded");
         }
         
         //close Firefox
