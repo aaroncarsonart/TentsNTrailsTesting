@@ -16,6 +16,9 @@ import com.tentsntrails.testing.TentsNTrails;
  * User Story # 130: As a user, I want to jump directly to the Location Details 
  * page when a search has only one result so that I can access the content I 
  * care about more quickly.
+ * <p>
+ * This test case is dependent on running CreateLocations and CreateReviews 
+ * first.
  * 
  * @author Aaron Carson
  * @version Apr 14, 2015

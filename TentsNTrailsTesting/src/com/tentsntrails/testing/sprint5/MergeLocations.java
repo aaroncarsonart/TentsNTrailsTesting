@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.Select;
  * Firefox browswer, navigates to the baseUrl, logs in as "Admin", creates two
  * locations that are identical in everything but name, then merges the two.
  * 
- * @author J.J. Garcia
+ * @author J.J. Garcia    
  *
  */
 public class MergeLocations

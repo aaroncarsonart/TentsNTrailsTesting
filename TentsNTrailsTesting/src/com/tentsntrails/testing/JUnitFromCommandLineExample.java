@@ -1,5 +1,6 @@
 package com.tentsntrails.testing;
 
+import org.junit.internal.TextListener;
 import org.junit.runner.Computer;
 import org.junit.runner.JUnitCore;
 
@@ -13,6 +14,7 @@ public class JUnitFromCommandLineExample {
 	public static void main(String[] args){
 		Computer computer = new Computer();
 		JUnitCore jUnitCore = new JUnitCore();
+		jUnitCore.addListener(new TextListener(System.out));
 		jUnitCore.run(computer, SmokeTestSuite.class);
 		jUnitCore.run(computer, RegressionTestSuite.class);		
 	}

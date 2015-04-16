@@ -16,7 +16,7 @@ public final class TentsNTrails
 	// urls we have available.
 	public static final String SPRINT_5 = "http://tentsntrailsdebug.azurewebsites.net";
 	public static final String SPRINT_6 = "http://tentsntrailssprint6.azurewebsites.net";
-	public static final String AARONS_TEST_SITE = "http://tentsntrails-test.azurewebsites.net";
+	public static final String AARONS_TEST_SITE = "http://tentsntrails-test.azurewebsites.net/";
 	
 	// Here is an easy, single-refrence point for a testing url.
 	//public static final String URL = SPRINT_6;

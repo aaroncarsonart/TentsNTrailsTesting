@@ -18,6 +18,9 @@ import com.tentsntrails.testing.TentsNTrails;
  * User Story # 85: As a user, I want to see the thumbs up reviews as green and
  * the thumbs down reviews as red so I can quickly see the overall rating of the
  * reviews in the list.
+ * <p>
+ * This test case is dependent on running CreateLocations first (it creates and
+ * deletes it's own Reviews).
  * 
  * @author Aaron Carson
  * @version Apr 15, 2015
