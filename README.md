@@ -11,6 +11,6 @@ JUnit Testing for tentsntrails.azurewebsites.net, designed with Selenium and bac
 Instructions for how to set up the development environment are available at http://www.guru99.com/selenium-tutorial.html
 
 Follow these tutorials for detailed instructions on how to setup the project in Eclipse and how to run the tests:
-- [import an existing project from Github into Eclipse ](https://github.com/aaroncarsonart/TentsNTrailsTesting/wiki/Importing-Eclipse-Project-from-Github "Import to Eclipse Tutorial")
+- [Import an existing project from Github into Eclipse ](https://github.com/aaroncarsonart/TentsNTrailsTesting/wiki/Importing-Eclipse-Project-from-Github "Import to Eclipse Tutorial")
 - [Run JUnit Tests and Test Suites](https://github.com/aaroncarsonart/TentsNTrailsTesting/wiki/Run-JUnit-Tests-in-Eclipse "JUnit Tutorial")
 
