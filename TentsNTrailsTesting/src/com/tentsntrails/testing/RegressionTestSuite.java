@@ -40,7 +40,10 @@ import com.tentsntrails.testing.sprint6.UserStory157;
 	DeleteReviews.class,
 	DeleteLocations.class,
 	
-	// Sprint 7 TO DO
+	// Sprint 7 -- No automated tests
+	
+	// Sprint 8 TODO
+	
 })
 
 // class itself has no definition
