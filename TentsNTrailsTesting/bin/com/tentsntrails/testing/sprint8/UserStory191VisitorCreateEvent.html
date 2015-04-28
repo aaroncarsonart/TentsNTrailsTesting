@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://tentsntrails-sprint8.azurewebsites.net/" />
+<title>UserStory191VisitorCreateEvent</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UserStory191VisitorCreateEvent</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Home - tents n trails</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Events</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>Events</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=i.glyphicon.glyphicon-plus</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Log in - tents n trails</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserName</td>
+	<td>pretzles</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Password</td>
+	<td>Password1!</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Create - tents n trails</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>Create</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Name</td>
+	<td>Jogging in the Gorge</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Description</td>
+	<td>Hopefully the weather will be nice and we'll all meet a few new friends! Come join us next Saturday!</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Date</td>
+	<td>5/2/15</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn.btn-default</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Index - tents n trails</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=h2</td>
+	<td>Events</td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>css=table.table.3.0</td>
+	<td>Jogging in the Gorge</td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>css=table.table.3.1</td>
+	<td>Multnomah Falls</td>
+</tr>
+<tr>
+	<td>assertTable</td>
+	<td>css=table.table.3.2</td>
+	<td>05/02/2015</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
