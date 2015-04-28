@@ -17,10 +17,11 @@ public final class TentsNTrails
 	public static final String SPRINT_5 = "http://tentsntrailsdebug.azurewebsites.net";
 	public static final String SPRINT_6 = "http://tentsntrailssprint6.azurewebsites.net";
 	public static final String AARONS_TEST_SITE = "http://tentsntrails-test.azurewebsites.net/";
+	public static final String SPRINT_7 = "http://tentsntrailssprint7.azurewebsites.net/";
 	
 	// Here is an easy, single-refrence point for a testing url.
 	//public static final String URL = SPRINT_6;
-	public static final String URL = AARONS_TEST_SITE;
+	public static final String URL = SPRINT_7;
 
 	// private static WebDriver DRIVER = ;
 	public static Dimension	FULLSCREEN_DIMENSION = getFullscreenDimension();
